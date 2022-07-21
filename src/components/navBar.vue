@@ -1,63 +1,41 @@
 <template>
-  <navBar />
-  <!-- <div class="nav">
-    <nav class="navbar">
-      <div class="navbar-container container">
-        <input type="checkbox" name="" id="" />
-        <div class="hamburger-lines">
-          <span class="line line1"></span>
-          <span class="line line2"></span>
-          <span class="line line3"></span>
+  <div>
+    <div class="nav">
+      <nav class="navbar">
+        <div class="navbar-container container">
+          <input type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <div class="logo"><img src="../../assets/logo.png" alt="" /></div>
+          <ul class="menu-items">
+            <li><router-link to="/Home">Home</router-link></li>
+            <li><router-link to="/About">About</router-link></li>
+            <li><router-link to="/Resume">Resume</router-link></li>
+            <li><router-link to="/Projects">Projects</router-link></li>
+            <li><router-link to="/Testimonials">Testimonials</router-link></li>
+            <li><router-link to="/Contact">Contact</router-link></li>
+          </ul>
         </div>
-        <ul class="menu-items">
-          <li><router-link to="/Home">Home</router-link></li>
-          <li><router-link to="/About">About</router-link></li>
-          <li><router-link to="/Resume">Resume</router-link></li>
-          <li><router-link to="/Projects">Projects</router-link></li>
-          <li><router-link to="/Testimonials">Testimonials</router-link></li>
-          <li><router-link to="/Contact">Contact</router-link></li>
-        </ul>
-        <h1 class="logo"><img src="../assets/logo.png" alt="" /></h1>
-      </div>
-    </nav>
-  </div> -->
-
-  <router-view />
-  <Footer />
+      </nav>
+    </div>
+  </div>
 </template>
 <script>
-import Home from "./views/Home.vue";
-import About from "./views/About.vue";
-import Resume from "./views/Resume.vue";
-import Projects from "./views/Projects.vue";
-import Testimonials from "./views/Testimonials.vue";
-import Contact from "./views/Contact.vue";
-import Footer from "./components/Footer.vue";
-import navBar from "./components/navBar.vue";
-
-export default {
-  components: {
-    Home,
-    About,
-    Resume,
-    Projects,
-    Testimonials,
-    Contact,
-    Footer,
-    navBar,
-  },
-};
+export default {};
 </script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #aaaaaa;
-}
-.nav-logo img {
+/* .nav-logo img {
   height: 350px;
+} */
+ul.menu-items {
+  display: contents;
+  list-style: none;
+}
+nav.navbar {
+  height: 14rem;
 }
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
@@ -65,10 +43,7 @@ export default {
 }
 .navbar-container.container {
   height: 20rem;
-}
-section {
-  height: 500px;
-  padding: 100px;
+  align-items: baseline;
 }
 nav .nav-links {
   position: sticky;
@@ -107,7 +82,7 @@ nav a.router-link-exact-active :hover {
   align-items: center;
 }
 img {
-  height: 18rem;
+  height: 13rem;
 }
 @media only screen and (max-width: 300px) {
   .nav-logo img {
@@ -189,7 +164,7 @@ img {
     margin-left: -40px;
     padding-left: 40px;
     transition: transform 0.5s ease-in-out;
-    box-shadow: 5px 0px 10px 0px #aaa;
+    /* box-shadow: 5px 0px 10px 0px #aaa; */
     overflow: scroll;
   }
 

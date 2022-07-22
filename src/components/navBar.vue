@@ -26,7 +26,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 /* .nav-logo img {
   height: 350px;
 } */
@@ -35,7 +35,9 @@ ul.menu-items {
   list-style: none;
 }
 nav.navbar {
-  height: 14rem;
+  height: 9rem;
+  position: fixed;
+  z-index: 1000;
 }
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
@@ -82,7 +84,7 @@ nav a.router-link-exact-active :hover {
   align-items: center;
 }
 img {
-  height: 13rem;
+  height: 8rem;
 }
 @media only screen and (max-width: 300px) {
   .nav-logo img {
@@ -201,6 +203,12 @@ img {
 @media (max-width: 500px) {
   .navbar-container input[type="checkbox"]:checked ~ .logo {
     display: none;
+  }
+}
+@media (max-width: 300px) {
+  nav.navbar[data-v-68781400] {
+    height: 10rem;
+    width: 110%;
   }
 }
 </style>

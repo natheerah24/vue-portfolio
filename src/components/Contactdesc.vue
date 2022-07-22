@@ -168,6 +168,9 @@ label {
   font-size: 15px;
   margin-right: 10px;
 }
+div#Contact {
+  padding-top: 10rem;
+}
 .form-horizontal #check2 + label {
   margin-right: 0;
 }
@@ -207,7 +210,7 @@ label {
 }
 .socials i {
   font-size: 30px;
-  color: #aaaaaa;
+  color: white;
 }
 .socials i:hover {
   color: darkseagreen;
@@ -223,6 +226,9 @@ label {
     color: #aaaaaa;
     font-weight: lighter !important;
     font-size: 50px;
+  }
+  div#Contact {
+    padding-top: 10rem;
   }
 }
 </style>

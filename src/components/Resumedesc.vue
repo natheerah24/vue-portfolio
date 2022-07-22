@@ -1,6 +1,6 @@
 <template>
   <div id="Resume">
-    <p>Resume</p>
+    <p class="resume-head">Resume</p>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -80,6 +80,9 @@ p {
   color: #aaaaaa;
   font-weight: lighter !important;
   font-size: 100px;
+}
+p.resume-head {
+  padding-top: 8rem;
 }
 #Resume {
   height: 150vh;
@@ -357,6 +360,10 @@ p {
   .main-timeline .timeline:nth-child(2n) .year[data-v-b8489924] {
     margin-left: 20px;
     margin-top: 20px;
+  }
+
+  p.resume-head {
+    padding-top: 10rem;
   }
 }
 </style>

@@ -1,27 +1,5 @@
 <template>
   <navBar />
-  <!-- <div class="nav">
-    <nav class="navbar">
-      <div class="navbar-container container">
-        <input type="checkbox" name="" id="" />
-        <div class="hamburger-lines">
-          <span class="line line1"></span>
-          <span class="line line2"></span>
-          <span class="line line3"></span>
-        </div>
-        <ul class="menu-items">
-          <li><router-link to="/Home">Home</router-link></li>
-          <li><router-link to="/About">About</router-link></li>
-          <li><router-link to="/Resume">Resume</router-link></li>
-          <li><router-link to="/Projects">Projects</router-link></li>
-          <li><router-link to="/Testimonials">Testimonials</router-link></li>
-          <li><router-link to="/Contact">Contact</router-link></li>
-        </ul>
-        <h1 class="logo"><img src="../assets/logo.png" alt="" /></h1>
-      </div>
-    </nav>
-  </div> -->
-
   <router-view />
   <Footer />
 </template>

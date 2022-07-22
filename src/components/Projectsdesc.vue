@@ -196,6 +196,9 @@ p {
   opacity: 1;
   transform: translateY(0);
 }
+ div#Projects {
+    padding-top: 10rem;
+  }
 .box .icon {
   padding: 0;
   margin: 0 0 10px;
@@ -249,6 +252,9 @@ p {
     color: #aaaaaa;
     font-weight: lighter !important;
     font-size: 50px;
+  }
+  div#Projects {
+    padding-top: 10rem;
   }
 }
 </style>

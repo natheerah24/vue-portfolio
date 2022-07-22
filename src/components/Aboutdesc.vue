@@ -87,6 +87,7 @@ export default {
   color: #aaaaaa;
   font-weight: lighter !important;
   font-size: 100px;
+  padding-top: 200px;
 }
 h1,
 h2 {
@@ -103,7 +104,7 @@ ul {
 img {
   width: 15rem;
   border-radius: 50px;
-    height: 23rem;
+  height: 23rem;
 }
 #About {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
@@ -120,7 +121,6 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .row {
@@ -226,5 +226,38 @@ p {
   margin: auto;
   padding-top: 20px;
 }
-
+@media only screen and (max-width: 370px) {
+  /* img[data-v-737ce6c4] {
+    padding-left: 1rem;
+  } */
+  .cardfront[data-v-737ce6c4] {
+    background-color: #bbb;
+    color: black;
+    width: 7rem;
+    height: 12rem;
+  }
+  .about-head[data-v-737ce6c4] {
+    font-family: "Playfair Display", serif;
+    color: #aaaaaa;
+    font-weight: lighter !important;
+    font-size: 50px;
+    padding-top: 70px;
+  }
+  #About {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 100px;
+    width: 110%;
+    overflow-x: hidden;
+  }
+  h2 {
+    padding-top: 2rem;
+  }
+  .my-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    margin-left: 4rem;
+  }
+  
+}
 </style>

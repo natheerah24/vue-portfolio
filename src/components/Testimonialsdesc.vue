@@ -132,6 +132,9 @@ p {
   padding-bottom: 50px;
   height: fit-content;
 }
+div#Testimonials {
+    padding-top: 10rem;
+  }
 .col-md-4.col-sm-6 {
   padding-top: 20px;
 }
@@ -231,6 +234,9 @@ p {
   }
   .team-content {
     height: 22rem;
+  }
+  div#Testimonials {
+    padding-top: 10rem;
   }
 }
 </style>

@@ -34,7 +34,7 @@ export default {};
   display: flex;
   flex-direction: column;
   padding-top: 12rem;
-  height: 600px;
+  height: 100vh;
 }
 .text-effect {
   color: #ffffff1a;
@@ -42,6 +42,7 @@ export default {};
   font-size: 100px;
   font-weight: 400;
   text-align: center;
+  padding-top: 12rem;
 }
 .text-effect span {
   display: inline-block;
@@ -113,6 +114,12 @@ export default {};
   }
   p {
     font-size: 22px;
+  }
+  .landing[data-v-d3e5d7c0] {
+    display: flex;
+    flex-direction: column;
+    padding-top: 21rem;
+    height: 600px;
   }
 }
 </style>

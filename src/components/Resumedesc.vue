@@ -248,97 +248,97 @@ p.resume-head {
 }
 @media only screen and (max-width: 1200px) {
   .main-timeline .year {
-    right: 30%;
+    right: 30% !important;
   }
   .main-timeline .timeline:nth-child(2n) .year {
-    left: 30%;
+    left: 30% !important;
   }
 }
 @media only screen and (max-width: 990px) {
   .main-timeline .year {
-    right: 25%;
+    right: 25% !important;
   }
   .main-timeline .timeline:nth-child(2n) .year {
-    left: 25%;
+    left: 25% !important;
   }
 }
 @media only screen and (max-width: 767px) {
   .main-timeline:before {
-    left: 10px;
+    left: 10px !important;
   }
   .main-timeline .timeline {
-    padding: 0 0 0 30px;
-    margin-bottom: 20px;
+    padding: 0 0 0 30px !important;
+    margin-bottom: 20px !important;
   }
   .main-timeline .timeline:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
   }
   .main-timeline .timeline:last-child:before {
-    display: none;
+    display: none !important;
   }
   .main-timeline .timeline-icon {
-    margin: 0;
-    position: absolute;
-    top: 7px;
-    left: 0;
+    margin: 0 !important;
+    position: absolute !important;
+    top: 7px !important;
+    left: 0 !important;
   }
   .main-timeline .year,
   .main-timeline .timeline:nth-child(2n) .year {
-    display: block;
-    font-weight: bold;
-    margin: 0 0 32px 30px;
-    z-index: 1;
-    position: relative;
-    top: auto;
-    left: auto;
-    right: auto;
-    transform: none;
+    display: block !important;
+    font-weight: bold !important;
+    margin: 0 0 32px 30px !important;
+    z-index: 1 !important;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
   }
   .main-timeline .timeline:nth-child(2n) .year:before {
-    border-left: none;
-    border-right: 18px solid darkseagreen;
-    right: auto;
-    left: -18px;
+    border-left: none !important;
+    border-right: 18px solid darkseagreen !important;
+    right: auto !important;
+    left: -18px !important;
   }
   .main-timeline .timeline-content {
-    padding: 20px;
+    padding: 20px !important;
   }
   .main-timeline .timeline-content,
   .main-timeline .timeline:nth-child(2n) .timeline-content {
-    width: auto;
-    float: none;
-    margin: 0 0 0 30px;
+    width: auto !important;
+    float: none !important;
+    margin: 0 0 0 30px !important;
   }
   .main-timeline .timeline-content:after,
   .main-timeline .timeline:nth-child(2n) .timeline-content:after {
-    border: none;
-    border-bottom: 20px solid #f2f2f2;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    top: -20px;
-    left: 50%;
-    right: auto;
-    transform: translateX(-50%);
+    border: none !important;
+    border-bottom: 20px solid #f2f2f2 !important;
+    border-left: 20px solid transparent !important;
+    border-right: 20px solid transparent !important;
+    top: -20px !important;
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
   }
 }
 @media only screen and (max-width: 480px) {
   .main-timeline .title {
-    float: none;
-    margin: 0;
+    float: none !important;
+    margin: 0 !important;
   }
   .main-timeline .year,
   .main-timeline .timeline:nth-child(2n) .year {
-    margin-left: 20px;
+    margin-left: 20px !important;
   }
   .main-timeline .timeline-content,
   .main-timeline .timeline:nth-child(2n) .timeline-content {
-    margin-left: 10px;
+    margin-left: 10px !important;
   }
   .main-timeline .post {
-    margin: 5px 0;
+    margin: 5px 0 !important;
   }
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 370px) {
   p[data-v-b8489924] {
     font-family: "Playfair Display", serif;
     color: #aaaaaa;
@@ -347,23 +347,23 @@ p.resume-head {
   }
   #Resume[data-v-b8489924] {
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-      url(http://localhost:8080/img/landing-2.1b18f45b.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: fit-content;
-    padding-bottom: 25px;
+      url(http://localhost:8080/img/landing-2.1b18f45b.jpg) !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: fit-content !important;
+    padding-bottom: 25px !important;
   }
 }
 @media only screen and (max-width: 480px) {
   .main-timeline .year[data-v-b8489924],
   .main-timeline .timeline:nth-child(2n) .year[data-v-b8489924] {
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
   }
 
   p.resume-head {
-    padding-top: 10rem;
+    padding-top: 10rem !important;
   }
 }
 </style>

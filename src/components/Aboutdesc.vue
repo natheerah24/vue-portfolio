@@ -231,33 +231,33 @@ p {
     padding-left: 1rem;
   } */
   .cardfront[data-v-737ce6c4] {
-    background-color: #bbb;
-    color: black;
-    width: 7rem;
-    height: 12rem;
+    background-color: #bbb !important;
+    color: black !important;
+    width: 7rem !important;
+    height: 12rem !important;
   }
   .about-head[data-v-737ce6c4] {
-    font-family: "Playfair Display", serif;
-    color: #aaaaaa;
+    font-family: "Playfair Display", serif !important;
+    color: #aaaaaa !important;
     font-weight: lighter !important;
-    font-size: 50px;
-    padding-top: 70px;
+    font-size: 50px !important;
+    padding-top: 70px !important;
   }
   #About {
-    padding-left: 0rem;
-    padding-right: 0rem;
-    padding-top: 100px;
-    width: 110%;
-    overflow-x: hidden;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+    padding-top: 100px !important;
+    width: 110% !important;
+    overflow-x: hidden !important;
   }
   h2 {
-    padding-top: 2rem;
+    padding-top: 2rem !important;
   }
   .my-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
-    margin-left: 4rem;
+    margin-left: 4rem !important;
   }
-  
+
 }
 </style>

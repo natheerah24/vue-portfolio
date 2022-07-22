@@ -217,18 +217,18 @@ div#Contact {
 }
 @media only screen and (max-width: 479px) {
   .check + label {
-    width: 48%;
+    width: 48% !important;
   }
 }
 @media only screen and (max-width: 300px) {
   p[data-v-2e78df9e] {
-    font-family: "Playfair Display", serif;
-    color: #aaaaaa;
+    font-family: "Playfair Display", serif !important;
+    color: #aaaaaa !important;
     font-weight: lighter !important;
-    font-size: 50px;
+    font-size: 50px !important;
   }
   div#Contact {
-    padding-top: 10rem;
+    padding-top: 10rem !important;
   }
 }
 </style>

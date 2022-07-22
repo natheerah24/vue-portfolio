@@ -1,6 +1,6 @@
 <template>
   <div id="Testimonials">
-    <p>Testimonials</p>
+    <p class="Test-head">Testimonials</p>
     <div class="container">
       <div class="row">
         <div
@@ -133,8 +133,8 @@ p {
   height: fit-content;
 }
 div#Testimonials {
-    padding-top: 10rem;
-  }
+  padding-top: 10rem;
+}
 .col-md-4.col-sm-6 {
   padding-top: 20px;
 }
@@ -222,21 +222,21 @@ div#Testimonials {
 }
 @media only screen and (max-width: 990px) {
   .our-team {
-    margin-top: 80px;
+    margin-top: 80px !important;
   }
 }
 @media only screen and (max-width: 300px) {
-  p[data-v-fb465c16] {
-    font-family: "Playfair Display", serif;
-    color: #aaaaaa;
+  .Test-head {
+    font-family: "Playfair Display", serif !important;
+    color: #aaaaaa !important;
     font-weight: lighter !important;
-    font-size: 40px;
+    font-size: 40px !important;
   }
   .team-content {
-    height: 22rem;
+    height: 22rem !important;
   }
   div#Testimonials {
-    padding-top: 10rem;
+    padding-top: 10rem !important;
   }
 }
 </style>

@@ -94,32 +94,32 @@ export default {};
 }
 @media only screen and (max-width: 990px) {
   .text-effect {
-    font-size: 90px;
+    font-size: 90px !important;
   }
 }
 @media only screen and (max-width: 767px) {
   .text-effect {
-    font-size: 70px;
+    font-size: 70px !important;
   }
 }
 @media only screen and (max-width: 576px) {
   .text-effect {
-    font-size: 50px;
+    font-size: 50px !important;
   }
 }
 @media only screen and (max-width: 479px) {
   .text-effect {
-    font-size: 27px;
-    line-height: 35px;
+    font-size: 27px !important;
+    line-height: 35px !important;
   }
   p {
-    font-size: 22px;
+    font-size: 22px !important;
   }
   .landing[data-v-d3e5d7c0] {
-    display: flex;
-    flex-direction: column;
-    padding-top: 21rem;
-    height: 600px;
+    display: flex !important;
+    flex-direction: column !important;
+    padding-top: 10rem !important;
+    height: 600px !important;
   }
 }
 </style>

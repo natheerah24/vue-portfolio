@@ -89,7 +89,7 @@ img {
 }
 @media only screen and (max-width: 300px) {
   .nav-logo img {
-    height: 350px;
+    height: 350px !important;
     width: 100%;
   }
 }

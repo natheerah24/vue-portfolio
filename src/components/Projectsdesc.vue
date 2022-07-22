@@ -246,7 +246,7 @@ div#Projects {
 }
 @media only screen and (max-width: 990px) {
   .box {
-    margin: 0 0 30px;
+    margin: 0 0 30px !important;
   }
 }
 @media only screen and (max-width: 300px) {
@@ -256,8 +256,9 @@ div#Projects {
     font-weight: lighter !important;
     font-size: 50px;
   }
+
   div#Projects {
-    padding-top: 10rem;
+    padding-top: 10rem !important;
   }
 }
 </style>

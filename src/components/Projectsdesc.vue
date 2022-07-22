@@ -261,4 +261,20 @@ div#Projects {
     padding-top: 8rem !important;
   }
 }
+@media only screen and (max-width: 300px) {
+p[data-v-4586219f] {
+    font-family: Playfair Display,serif;
+    color: #aaa;
+    font-weight: lighter!important;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 300px) {
+p[data-v-4586219f] {
+    font-family: Playfair Display,serif;
+    color: #aaa;
+    font-weight: lighter!important;
+    font-size: 50px;
+}
+}
 </style>

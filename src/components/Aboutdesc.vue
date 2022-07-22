@@ -281,7 +281,14 @@ p {
   .my-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
-    margin-left: 4rem !important;
+    margin-left: 12rem !important;
   }
+}
+@media only screen and (max-width: 400px){
+.my-auto[data-v-3eb36c29] {
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+    margin-left: 12rem!important;
+}
 }
 </style>

@@ -245,8 +245,11 @@ div#Testimonials {
   }
 }
 @media only screen and (max-width: 400px) {
-   .Test-head {
-  font-size: 40px !important;
-   }
+    .Test-head {
+    font-family: "Playfair Display", serif !important;
+    color: #aaaaaa !important;
+    font-weight: lighter !important;
+    font-size: 40px !important;
+  }
 }
 </style>

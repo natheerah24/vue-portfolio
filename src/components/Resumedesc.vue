@@ -398,4 +398,22 @@ p.resume-head {
     padding-bottom: 5rem;
   }
 }
+@media only screen and (max-width: 680px){
+p.resume-head[data-v-e6c19d2a] {
+    padding-top: 7rem!important;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 400px){
+p.resume-head[data-v-e6c19d2a] {
+    padding-top: 7rem!important;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 300px){
+p.resume-head[data-v-e6c19d2a] {
+    padding-top: 7rem!important;
+    font-size: 50px;
+}
+}
 </style>

@@ -11,7 +11,7 @@
           </div>
           <div class="logo"><img src="../../assets/logo.png" alt="" /></div>
           <ul class="menu-items">
-            <li><router-link to="/Home">Home</router-link></li>
+            <li><router-link to="/">Home</router-link></li>
             <li><router-link to="/About">About</router-link></li>
             <li><router-link to="/Resume">Resume</router-link></li>
             <li><router-link to="/Projects">Projects</router-link></li>

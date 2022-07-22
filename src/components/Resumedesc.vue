@@ -369,4 +369,30 @@ p.resume-head {
     padding-top: 10rem !important;
   }
 }
+@media only screen and (max-width: 680px) {
+  .main-timeline .year[data-v-b8489924],
+  .main-timeline .timeline:nth-child(2n) .year[data-v-b8489924] {
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+  }
+
+  p.resume-head {
+    padding-top: 10rem !important;
+  }
+  p[data-v-b8489924] {
+    font-family: "Playfair Display", serif;
+    color: #aaaaaa;
+    font-weight: lighter !important;
+    font-size: 50px;
+  }
+  #Resume[data-v-b8489924] {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+      url(http://localhost:8080/img/landing-2.1b18f45b.jpg) !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: fit-content !important;
+    padding-bottom: 25px !important;
+  }
+}
 </style>

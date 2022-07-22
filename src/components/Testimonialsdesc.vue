@@ -239,4 +239,9 @@ div#Testimonials {
     padding-top: 10rem !important;
   }
 }
+@media only screen and (max-width: 680px) {
+  .team-content[data-v-fb465c16] {
+    height: 25rem;
+  }
+}
 </style>

@@ -247,6 +247,9 @@ p.resume-head {
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1200px) {
+  #Resume {
+    height: auto;
+  }
   .main-timeline .year {
     right: 30% !important;
   }

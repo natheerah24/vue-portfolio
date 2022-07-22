@@ -247,7 +247,7 @@ p {
     padding-left: 0rem !important;
     padding-right: 0rem !important;
     padding-top: 100px !important;
-    width: 110% !important;
+    width: 100% !important;
     overflow-x: hidden !important;
   }
   h2 {

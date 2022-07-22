@@ -55,7 +55,7 @@ nav .nav-links {
 } */
 nav {
   padding-bottom: 30px;
-  /* position: fixed; */
+
   height: fit-content;
   background-color: white;
   width: 100%;

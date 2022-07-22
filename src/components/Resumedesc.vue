@@ -377,7 +377,7 @@ p.resume-head {
   }
 
   p.resume-head {
-    padding-top: 10rem !important;
+    padding-top: 7rem !important;
   }
   p[data-v-b8489924] {
     font-family: "Playfair Display", serif;
@@ -393,6 +393,9 @@ p.resume-head {
     background-repeat: no-repeat !important;
     height: fit-content !important;
     padding-bottom: 25px !important;
+  }
+  div#Resume {
+    padding-bottom: 5rem;
   }
 }
 </style>

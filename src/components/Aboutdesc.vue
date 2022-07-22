@@ -276,7 +276,7 @@ p {
   #About {
     padding-left: 0rem !important;
     padding-right: 0rem !important;
-    padding-top: 100px !important;
+    padding-top: 45px !important;
     width: 100% !important;
     overflow-x: hidden !important;
   }

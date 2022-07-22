@@ -106,9 +106,9 @@ export default {
           name: "Godwin Dzvapatsva",
           desc: "Natheerah has a very gentle personality. I am confident that she will continue to be productive and always willing to learn new concepts. Natheerah has shown great potential in building web applications using HTML, CSS, JavaScript, and VueJs. I recommend her.",
           role: "Head of Curriculum and Learning",
-          github: "https://github.com/AshwinJacobs",
-          codepen: "https://codepen.io/ashwinjacobs",
-          linkedin: "https://www.linkedin.com/in/ashwin-dean-0956b0199/",
+          github: "",
+          codepen: "",
+          linkedin: "https://www.linkedin.com/in/gpdzvapatsva",
           img: "https://i.postimg.cc/mDsWVQfP/godwin-2022.jpg",
         },
       ],
@@ -240,8 +240,8 @@ div#Testimonials {
   }
 }
 @media only screen and (max-width: 680px) {
-  .team-content[data-v-fb465c16] {
-    height: 25rem;
+  .team-content[data-v-563c85bc] {
+    height: 25rem !important;
   }
 }
 </style>

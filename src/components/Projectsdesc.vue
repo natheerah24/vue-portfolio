@@ -113,6 +113,9 @@ p {
   font-weight: lighter !important;
   font-size: 100px;
 }
+label.col-md-3.col-sm-2.control-label {
+  font-family: "Cormorant", serif;
+}
 .proj {
   display: flex;
   flex-wrap: wrap;
@@ -196,9 +199,9 @@ p {
   opacity: 1;
   transform: translateY(0);
 }
- div#Projects {
-    padding-top: 10rem;
-  }
+div#Projects {
+  padding-top: 10rem;
+}
 .box .icon {
   padding: 0;
   margin: 0 0 10px;

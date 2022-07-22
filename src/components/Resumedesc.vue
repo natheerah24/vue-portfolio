@@ -246,6 +246,7 @@ p.resume-head {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 @media only screen and (max-width: 1200px) {
   #Resume {
     height: auto;
@@ -375,15 +376,11 @@ p.resume-head {
     margin-left: 20px !important;
     margin-top: 20px !important;
   }
-
-  p.resume-head {
-    padding-top: 7rem !important;
-  }
-  p[data-v-b8489924] {
+  p{
     font-family: "Playfair Display", serif;
     color: #aaaaaa;
     font-weight: lighter !important;
-    font-size: 50px;
+    font-size: 50px !important;
   }
   #Resume[data-v-b8489924] {
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
@@ -397,23 +394,28 @@ p.resume-head {
   div#Resume {
     padding-bottom: 5rem;
   }
-}
-@media only screen and (max-width: 680px){
-p.resume-head[data-v-e6c19d2a] {
+  p.resume-head {
     padding-top: 7rem!important;
-    font-size: 50px;
+    font-size: 50px !important;
 }
 }
+
 @media only screen and (max-width: 400px){
 p.resume-head[data-v-e6c19d2a] {
     padding-top: 7rem!important;
-    font-size: 50px;
+    font-size: 50px !important;
 }
 }
 @media only screen and (max-width: 300px){
 p.resume-head[data-v-e6c19d2a] {
     padding-top: 7rem!important;
-    font-size: 50px;
+    font-size: 50px !important;
+}
+ p[data-v-b8489924] {
+    font-family: "Playfair Display", serif;
+    color: #aaaaaa;
+    font-weight: lighter !important;
+    font-size: 50px !important;
 }
 }
 </style>

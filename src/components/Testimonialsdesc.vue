@@ -249,7 +249,7 @@ div#Testimonials {
     font-family: "Playfair Display", serif !important;
     color: #aaaaaa !important;
     font-weight: lighter !important;
-    font-size: 40px !important;
+    font-size: 30px !important;
   }
 }
 </style>

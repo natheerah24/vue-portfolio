@@ -258,7 +258,7 @@ div#Projects {
   }
 
   div#Projects {
-    padding-top: 10rem !important;
+    padding-top: 8rem !important;
   }
 }
 </style>

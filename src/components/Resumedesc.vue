@@ -366,7 +366,7 @@ p.resume-head {
   }
 
   p.resume-head {
-    padding-top: 10rem !important;
+    padding-top: 8rem !important;
   }
 }
 @media only screen and (max-width: 680px) {

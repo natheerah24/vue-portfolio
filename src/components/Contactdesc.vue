@@ -228,7 +228,7 @@ div#Contact {
     font-size: 50px !important;
   }
   div#Contact {
-    padding-top: 10rem !important;
+    padding-top: 8rem !important;
   }
 }
 </style>

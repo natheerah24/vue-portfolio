@@ -236,12 +236,17 @@ div#Testimonials {
     height: 22rem !important;
   }
   div#Testimonials {
-    padding-top: 10rem !important;
+    padding-top: 8rem !important;
   }
 }
 @media only screen and (max-width: 680px) {
   .team-content[data-v-563c85bc] {
     height: 25rem !important;
   }
+}
+@media only screen and (max-width: 400px) {
+   .Test-head {
+  font-size: 40px !important;
+   }
 }
 </style>

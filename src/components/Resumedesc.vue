@@ -209,7 +209,7 @@ p.resume-head {
 }
 .main-timeline .description {
   font-family: "Cormorant", serif;
-  font-size: 14px;
+  font-size: 14px !important;
   color: #7d7b7b;
   line-height: 24px;
   margin: 0;

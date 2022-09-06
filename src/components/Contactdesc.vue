@@ -92,11 +92,11 @@
               <a
                 href="https://www.linkedin.com/in/natheerah-abrahams-274b22208/"
                 target="_blank"
+              ><i class="fa-brands fa-codepen"></i
               >
-                <i class="fa-brands fa-linkedin"></i
-              ></a>
+                </a>
               <a href="https://codepen.io/natheerah24" target="_blank"
-                ><i class="fa-brands fa-codepen"></i
+                ><i class="fa-brands fa-linkedin"></i
               ></a>
             </div>
           </div>

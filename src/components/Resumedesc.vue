@@ -5,6 +5,46 @@
       <div class="row">
         <div class="col-md-12">
           <div class="main-timeline">
+            
+            <div class="timeline">
+              <span class="timeline-icon"></span>
+              <span class="year">2022-Present</span>
+              <div class="timeline-content">
+                <h3 class="title">Life Choices Academy</h3>
+                <span class="post">Assistant Lecturer</span>
+                <p class="description">
+                  Assist students in their academic growth; watch over students outside of the classroom and during lunch; oversee student group activities; and other administrative duties as assigned by the academy.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline">
+              <span class="timeline-icon"></span>
+              <span class="year">2021 - Present</span>
+              <div class="timeline-content">
+                <h3 class="title">Skills Academy</h3>
+                <span class="post">Early Childhood Development</span>
+                <p class="description">
+                  An Academy that offer a number of professional courses both paid and unpaid to provide you easy access to multiple professional courses and build your skills for the industry. I am studying ECD here.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="main-timeline">
+            
+            <div class="timeline">
+              <span class="timeline-icon"></span>
+              <span class="year">2022</span>
+              <div class="timeline-content">
+                <h3 class="title">Life Choices Studio</h3>
+                <span class="post">Full-stack Developer Intern</span>
+                <p class="description">
+                  The Studios aim is to assist young entrepreneurs to move from an idea or early business stage to a well formulated business model ready to be implemented. I have up skilled myself and learned how to create
+                  responding websites using Vuetify, Quasar, Wordpress,Vite.js and Tailwind CSS.
+                </p>
+              </div>
+            </div>
+
             <div class="timeline">
               <span class="timeline-icon"></span>
               <span class="year">2022</span>
@@ -15,12 +55,14 @@
                   An academy that delivers job-training programs intended to
                   give school leavers the skills and direction they need to land
                   meaningful and good-paying jobs. I have learned how to create
-                  responding websites using HTML, CSS, Bootsrap, JavaScript and
+                  responding websites using HTML, CSS, Bootstrap, JavaScript and
                   Vue.
                 </p>
               </div>
             </div>
-
+          </div>
+          <div class="main-timeline">
+            
             <div class="timeline">
               <span class="timeline-icon"></span>
               <span class="year">2021 - 2022</span>
@@ -30,13 +72,11 @@
                 <p class="description">
                   A health and beauty retailer. I casualed during the end of
                   year holidays as a cashier and assisted customers.I carried
-                  out cash management and customer services
+                  out cash management and customer services.
                 </p>
               </div>
             </div>
-          </div>
 
-          <div class="main-timeline">
             <div class="timeline">
               <span class="timeline-icon"></span>
               <span class="year">2019</span>
@@ -51,13 +91,14 @@
                 </p>
               </div>
             </div>
-
+          </div>
+          <div class="main-timeline">
             <div class="timeline">
               <span class="timeline-icon"></span>
               <span class="year">2017</span>
               <div class="timeline-content">
                 <h3 class="title">Sanlam</h3>
-                <span class="post">Job shadower</span>
+                <span class="post">Job Shadower</span>
                 <p class="description">
                   A South African financial services group. My job was focused
                   on administration and filing of documents.I served a helping
@@ -65,6 +106,7 @@
                 </p>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -84,9 +126,9 @@ p {
 p.resume-head {
   padding-top: 8rem;
 }
-#Resume {
+/* #Resume {
   height: 150vh;
-}
+} */
 .main-timeline {
   overflow: hidden;
   position: relative;
@@ -175,6 +217,7 @@ p.resume-head {
   position: absolute;
   top: 0;
   left: -18px;
+  padding-top: 1px;
 }
 .main-timeline .timeline-content {
   width: 46.5%;
@@ -228,6 +271,7 @@ p.resume-head {
   border-left: 18px solid darkseagreen;
   left: auto;
   right: -18px;
+  padding-top: 1px;
 }
 .main-timeline .timeline:nth-child(2n) .timeline-content {
   float: right;
@@ -245,6 +289,7 @@ p.resume-head {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 2rem;
 }
 
 @media only screen and (max-width: 1200px) {

@@ -101,6 +101,33 @@ export default {
           hostedLink: "https://to-do-list-natheerah.netlify.app/",
           img: "https://i.postimg.cc/Jnq2hTBx/to-do-list.jpg",
         },
+        {
+          id: 9,
+          name: "Candy Store",
+          description:
+            "A fullstack Ecommerce, made with HTML, CSS, JavaScript,Node.Js and Vue",
+          githubLink: "https://github.com/natheerah24/capstone_frontend",
+          hostedLink: "https://candy-kingdom.netlify.app/",
+          img: "https://i.postimg.cc/1312k93r/capstone.png",
+        },
+        {
+          id: 10,
+          name: "To Do List",
+          description:
+            "A fully functional to do list, made Quasar",
+          githubLink: "https://github.com/natheerah24/quasar-to-do-list",
+          hostedLink: "https://gleeful-frangipane-46bedb.netlify.app/#/",
+          img: "https://i.postimg.cc/yNHJ3SY3/quasar-to-do-list.png",
+        },
+        {
+          id: 11,
+          name: "To Do List",
+          description:
+            "A fully functional to do list, made Vuetify",
+          githubLink: "https://github.com/natheerah24/vuetify-to-do-list",
+          hostedLink: "https://vuetify-to-do-list.web.app/",
+          img: "https://i.postimg.cc/V6xjFxpZ/Vuetify-To-Do.png",
+        },
       ],
     };
   },

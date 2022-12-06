@@ -4,10 +4,14 @@
     <div class="row">
       <div class="col-md-6 my-auto">
         <div class="flipcard">
+          <div class="text-effect">
+            Hover Me
+          </div>
           <div class="flip-card-inner">
             <div class="cardfront">
               <div id="about-img">
                 <img src="../../assets/about.img.jpg" alt="" />
+                
               </div>
             </div>
             <div class="cardback">
@@ -67,6 +71,21 @@
           <div class="card12">
             <i class="fa-brands fa-github"></i>
           </div>
+          <div class="card12">
+            <i class="fa-brands fa-wordpress"></i>
+          </div>
+          <div class="card12">
+            <i class="fa-brands fa-node-js"></i>
+          </div>
+          <div class="card12">
+            <i class="fa-brands fa-node"></i>
+          </div>
+          <div class="card12">
+            <i class="fa-brands fa-figma"></i>
+          </div>
+          <div class="card12">
+            <i class="fa-brands fa-bootstrap"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -87,7 +106,7 @@ export default {
   color: #aaaaaa;
   font-weight: lighter !important;
   font-size: 100px;
-  padding-top: 200px;
+  padding-top: 8rem;
 }
 h1,
 h2 {
@@ -276,7 +295,7 @@ p {
     overflow-x: hidden !important;
   }
   h2 {
-    padding-top: 2rem !important;
+    padding-top: 10rem !important;
   }
   .my-auto {
     margin-top: auto !important;
@@ -290,5 +309,35 @@ p {
     margin-bottom: auto!important;
     margin-left: 12rem!important;
 }
+}
+.text-effect{
+    color: #aaaaaa;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    animation: swing 1s linear infinite alternate;
+}
+@keyframes swing{
+    0%{
+        color: #aaaaaa;
+        transform: rotate(5deg);
+    }
+    100%{
+        color: #8fbc8f;
+        transform: rotate(-5deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .text-effect{ font-size: 90px; }
+}
+@media only screen and (max-width: 767px){
+    .text-effect{ font-size: 70px; }
+}
+@media only screen and (max-width: 576px){
+    .text-effect{ font-size: 55px; }
+}
+@media only screen and (max-width: 479px){
+    .text-effect{ font-size: 40px; }
 }
 </style>
